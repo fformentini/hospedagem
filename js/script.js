@@ -23,7 +23,7 @@ var swiper = new Swiper(".mySwiper", {
 
   // whatsapp api
   function redirectToWhatsApp() {
-    const phoneNumber = '+5521994832732'; // numero ficticio
+    const phoneNumber = '+5521984063033'; // numero ficticio
     const message = 'Olá, gostaria de mais informações.'; 
     const encodedMessage = encodeURIComponent(message);
     const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
@@ -34,7 +34,7 @@ var swiper = new Swiper(".mySwiper", {
 // email api 
 
 function sendEmail() {
-  const email = 'fabriciopython@gmail.com'; // email ficticio
+  const email = 'fabricioformentini2@gmail.com'; 
   const subject = 'Assunto '; 
   const body = 'Olá, gostaria de mais informações.';
   const mailtoLink = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -44,14 +44,7 @@ function sendEmail() {
 // tel api
 
 function callPhone() {
-  const phoneNumber = '+552140028922'; // numero ficticio
+  const phoneNumber = '+5521984063033'; 
   const telLink = `tel:${phoneNumber}`;
   window.location.href = telLink;
-}
-
-
-// form
-
-function redirectToForm() {
-  window.location.href = 'form.html';
 }

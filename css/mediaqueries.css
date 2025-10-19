@@ -9,17 +9,18 @@
         padding: 15px 0;
     }
 
-    .menu nav li {
-        display: inline-block;
-        margin: 0 10px; 
-        font-weight: 600;
-
+    .menu {
+        display: none;
     }
 
     .btn-contact button, .hero button {
         width: 150px;
         height: 50px;
         font-size: 14px;
+    }
+
+    .logo, .btn-contact {
+        margin: 0 20px;
     }
 
     .hero-txt h1 {
