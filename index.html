@@ -11,7 +11,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Work+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- Biblioteca Swiperjs  -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -20,7 +20,7 @@
 
     <link rel="shortcut icon" href="img/chalet.png" type="image/chalet-icon">  <!-- Chalet icons created by Freepik - Flaticon</a> -->
 
-    <title>Website</title>
+    <title>Chalés nas Montanhas | Refúgio entre picos e trilhas</title>
 </head>
 <body>
 
@@ -29,6 +29,7 @@
 
             <section class="logo">
                 <i class="bi bi-house-heart-fill"></i>
+                <span class="logo-txt">Chalés <em>nas Montanhas</em></span>
             </section>
 
             <section class="menu">
@@ -55,8 +56,9 @@
         <div class="interface">
 
             <div class="hero-txt">
+                <p class="eyebrow"><i class="bi bi-compass"></i> Refúgio entre picos e trilhas</p>
                 <h1>Venha se aventurar <span>pelas montanhas</span></h1>
-                <p>Um destino para ficar na memória para sempre!</p>
+                <p class="hero-lead">Um destino para ficar na memória para sempre!</p>
 
                 <a href="#map">
                     <button>Quero conhecer</button>
@@ -65,15 +67,25 @@
             </div>
         </div>
 
+        <div class="scroll-cue">
+            <span></span>
+        </div>
+
     </section>
+
+    <div class="ridge-divider" aria-hidden="true"></div>
 
     <main>
 
     <section class="advantages" id="about">
         <div class="interface">
 
+            <p class="section-eyebrow">A experiência</p>
+            <h2 class="section-title">Por que ficar conosco</h2>
+
             <article class="container-items">
                 <div class="txt-items">
+                    <span class="item-icon"><i class="bi bi-signpost-split"></i></span>
                     <h3>Aventure-se</h3>
                     <p>Descubra experiências incríveis perto da nossa hospedagem! Trilhas, cachoeiras, passeios e muito contato com a natureza esperam por você. Viva momentos únicos e sinta a emoção de se aventurar.</p>
                 </div>
@@ -91,6 +103,7 @@
                 </div>
 
                 <div class="txt-items">
+                    <span class="item-icon"><i class="bi bi-cup-hot"></i></span>
                     <h3>Aconchegante</h3>
                     <p>Relaxe e sinta-se em casa. Nossos chalés oferecem conforto, tranquilidade e um ambiente perfeito para quem busca descanso em meio à natureza. Cada detalhe foi pensado para o seu bem-estar.</p>
                 </div>
@@ -101,6 +114,7 @@
 
             <article class="container-items">
                 <div class="txt-items">
+                    <span class="item-icon"><i class="bi bi-star-fill"></i></span>
                     <h3>Chalé mais indicado</h3>
                     <p>O preferido pelos nossos hóspedes! Com vista para as montanhas, lareira e varanda privativa, é perfeito para casais que buscam conforto e romantismo em meio à natureza.</p>
                 </div>
@@ -116,9 +130,12 @@
     </section>
 
     <section class="location" id="map">
+        <p class="section-eyebrow center">Onde estamos</p>
+        <h2 class="section-title center">Encontre o caminho até nós</h2>
         <div class="location-map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10973.488591564414!2d8.5610781!3d46.56010555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478576eb2f97f733%3A0x41140a31bc0c273!2zQWxwZXMgc3XDrcOnb3M!5e0!3m2!1spt-BR!2sbr!4v1720045560954!5m2!1spt-BR!2sbr" width="1400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+            <div class="map-frame">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10973.488591564414!2d8.5610781!3d46.56010555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478576eb2f97f733%3A0x41140a31bc0c273!2zQWxwZXMgc3XDrcOnb3M!5e0!3m2!1spt-BR!2sbr!4v1720045560954!5m2!1spt-BR!2sbr" width="1400" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </section>
 
@@ -126,8 +143,9 @@
         <div class="interface">
 
             <article class="contact-txt">
+                <p class="section-eyebrow">Fale conosco</p>
                 <h3>Contate-nos para <span>agendamento</span></h3>
-                <p>Aberto de segunda à sabádo <br> Funcionamento entre 8:00h até 22:00h</p>
+                <p>Aberto de segunda à sábado <br> Funcionamento entre 8:00h até 22:00h</p>
             </article>
 
             <article class="contact-icons">
@@ -158,6 +176,8 @@
     </section>
 
     <section class="feedback mySwiper" id="feedbacks">
+        <p class="section-eyebrow center">Depoimentos</p>
+        <h2 class="section-title center">Quem já ficou, conta</h2>
         <div class="interface swiper-wrapper">
 
             <div class="slider swiper-slide">

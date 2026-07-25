@@ -23,7 +23,7 @@ var swiper = new Swiper(".mySwiper", {
 
   // whatsapp api
   function redirectToWhatsApp() {
-    const phoneNumber = '+5521984063033'; // numero ficticio
+    const phoneNumber = '+5521999999999'; // numero ficticio
     const message = 'Olá, gostaria de mais informações.'; 
     const encodedMessage = encodeURIComponent(message);
     const url = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;

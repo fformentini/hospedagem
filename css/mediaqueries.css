@@ -1,35 +1,53 @@
+@media screen and (max-width: 992px) {
+    .section-title {
+        font-size: 1.7em;
+    }
+}
+
 @media screen and (max-width: 768px){
     .swiper-button-next, .swiper-button-prev{
         display: none;
     }
-
 
     /* Ajuste para o cabeçalho (header) */
     header {
         padding: 15px 0;
     }
 
+    .interface {
+        padding: 0 20px;
+    }
+
     .menu {
         display: none;
     }
 
+    .logo-txt {
+        font-size: 16px;
+    }
+
     .btn-contact button, .hero button {
         width: 150px;
-        height: 50px;
+        height: 46px;
         font-size: 14px;
     }
 
-    .logo, .btn-contact {
-        margin: 0 20px;
+    .hero-txt h1 {
+        font-size: 2.3em;
     }
 
-    .hero-txt h1 {
-        font-size: 3em;
-        line-height: 60px;
+    .hero-lead {
+        font-size: 16px;
+    }
+
+    .scroll-cue {
+        display: none;
     }
 
     .container-items {
         flex-direction: column;
+        gap: 30px;
+        text-align: center;
     }
 
     .container-items .txt-items, .container-items .img-items, #chaletnone {
@@ -38,12 +56,24 @@
         margin: 0;
     }
 
+    .txt-items p {
+        max-width: 100%;
+    }
+
+    .item-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #chalet{
         display: none;
     }
 
     #chaletnone {
         display: initial;
+        max-width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
     }
 
     .img-items img {
@@ -51,40 +81,45 @@
     }
 
     .location {
-        padding-top: 0px;
+        padding: 60px 0;
+    }
+
+    .location-map {
+        padding: 0 20px;
+    }
+
+    .contact {
+        padding: 70px 0;
     }
 
     .contact-txt {
-       display: flex;
-       flex-direction: column;
-       margin: 0 auto;
+       display: block;
+       width: 100%;
        margin-bottom: 40px;
-       
+       text-align: center;
     }
-    
+
     .contact-txt h3 {
-        
-        font-size: 1.2em;
-        font-weight: 400;
-        margin-bottom: 20px;
+        font-size: 1.5em;
     }
-    
-    .contact-txt span {
-        display: block;
-        font-size: 1.2em; 
-    }
-    
 
     .contact-icons{
         display: block;
+        width: 100%;
         margin: 0 auto;
     }
 
-
     .contact-icons button {
-        width: 100%;
-        padding: 0 30px;
+        padding: 0 22px;
         font-size: 14px;
+    }
+
+    .feedback {
+        padding: 70px 16px;
+    }
+
+    .slider {
+        padding: 26px;
     }
 
     .footer-content {
@@ -92,9 +127,9 @@
     }
 
     .support {
-        display: flex;
         flex-direction: column;
-        padding-bottom: 20px;
+        gap: 10px;
+        padding-bottom: 10px;
     }
 }
 
@@ -111,9 +146,8 @@
 
     .menu nav li {
         display: inline-block;
-        margin: 0 10px; 
-        font-weight: 600;
-
+        margin: 0 16px;
+        font-weight: 500;
     }
 
     .btn-contact button,
@@ -125,11 +159,11 @@
 
     .hero-txt h1 {
         font-size: 3em;
-        line-height: 60px;
     }
 
     .container-items {
         flex-direction: column;
+        text-align: center;
     }
 
     .container-items .txt-items,
@@ -140,65 +174,56 @@
         margin: 0;
     }
 
-    
+    .item-icon {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     #chalet {
         display: none;
     }
 
     #chaletnone {
         display: initial;
+        max-width: 100%;
+        border-radius: 6px;
+        box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
     }
 
     .img-items img {
         max-width: 100%;
     }
 
-   
     .location {
-        padding-top: 0px; 
+        padding: 70px 0;
     }
 
-    
     .contact-txt {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        margin-bottom: 40px;
-    }
-
-    .contact-txt h3 {
-        font-size: 1.2em;
-        font-weight: 400;
-        margin-bottom: 20px;
-    }
-
-    .contact-txt span {
         display: block;
-        font-size: 1.2em; 
+        width: 100%;
+        margin: 0 auto 40px;
+        text-align: center;
     }
 
-  
     .contact-icons {
         display: block;
+        width: 100%;
         margin: 0 auto;
     }
 
     .contact-icons button {
-        width: 100%;
-        padding: 0 30px;
+        padding: 0 24px;
         font-size: 14px;
     }
 
-   
     .footer-content {
         flex-direction: column;
     }
 
-    
     .support {
         display: flex;
         flex-direction: column;
+        gap: 10px;
         padding-bottom: 20px;
     }
 }
-
